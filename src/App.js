@@ -197,7 +197,7 @@ const App = () => {
 						</button>
 						<button
 							className='cta-button mint-button'
-							disabled={loading}
+							disabled={!loading}
 							onClick={() => {
 								setEditing(false);
 							}}>
